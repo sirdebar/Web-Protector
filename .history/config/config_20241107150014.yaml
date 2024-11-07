@@ -1,7 +1,0 @@
-
-# config/config.yaml
-rate_limit: 100                    # Максимальное количество запросов за период
-time_window: 60                    # Время в секундах для ограничения запросов
-allowed_origins:                   # Разрешенные домены для CORS
-  - "https://example.com"
-log_file: "/var/log/app/blocked_requests.log"  # Путь к файлу логирования
